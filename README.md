@@ -5,6 +5,32 @@ Fertige **Moodle-Nutzertouren** (User Tours) für das
 Moodle-Installation. Die Touren führen Nutzer:innen Schritt für Schritt
 durch die wichtigsten Seiten des Seminarplaners.
 
+## Import in Moodle
+
+Die Touren werden **als Administrator:in** importiert:
+
+1. In Moodle mit Administrationsrechten anmelden.
+2. **Website-Administration → Darstellung → Nutzertouren** öffnen –
+   oder direkt die URL aufrufen:
+
+   ```
+   https://DEINE-MOODLE-URL/admin/tool/usertours/configure.php
+   ```
+
+   (z. B. `https://moodle.example.org/admin/tool/usertours/configure.php`)
+3. Auf **„Tour importieren"** klicken.
+4. Die gewünschte `*.json`-Datei aus diesem Repository auswählen und
+   hochladen.
+5. Die Tour erscheint danach in der Liste. Bei Bedarf über das
+   **Auge-Symbol aktivieren** (importierte Touren sind ggf. zunächst
+   deaktiviert) und Reihenfolge/Einstellungen anpassen.
+
+Für jede der JSON-Dateien wiederholen, die du bereitstellen möchtest.
+
+Jede Tour ist über ihr **URL-Muster (pathmatch)** an die passende
+Seminarplaner-Seite gebunden (siehe Tabelle) und wird dort automatisch
+angeboten.
+
 ## Enthaltene Touren
 
 | Datei | Tour | Gilt auf Seite | Schritte |
@@ -83,32 +109,6 @@ Konzeptsammlung, Materialliste, Handout).
 Die wenigen Einstellungen einer Seminarplaner-Aktivität: Name, Nutzung
 (Beschreibung) und PDF-Logo. Schritte u. a.: Name der Aktivität,
 Nutzungsbeschreibung, Logo für die PDF-Exporte, Speichern.
-
-## Import in Moodle
-
-Die Touren werden **als Administrator:in** importiert:
-
-1. In Moodle mit Administrationsrechten anmelden.
-2. **Website-Administration → Darstellung → Nutzertouren** öffnen –
-   oder direkt die URL aufrufen:
-
-   ```
-   https://DEINE-MOODLE-URL/admin/tool/usertours/configure.php
-   ```
-
-   (z. B. `https://moodle.example.org/admin/tool/usertours/configure.php`)
-3. Auf **„Tour importieren"** klicken.
-4. Die gewünschte `*.json`-Datei aus diesem Repository auswählen und
-   hochladen.
-5. Die Tour erscheint danach in der Liste. Bei Bedarf über das
-   **Auge-Symbol aktivieren** (importierte Touren sind ggf. zunächst
-   deaktiviert) und Reihenfolge/Einstellungen anpassen.
-
-Für jede der JSON-Dateien wiederholen, die du bereitstellen möchtest.
-
-Jede Tour ist über ihr **URL-Muster (pathmatch)** an die passende
-Seminarplaner-Seite gebunden (siehe Tabelle) und wird dort automatisch
-angeboten.
 
 ## Hinweise
 
