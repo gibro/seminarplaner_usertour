@@ -71,10 +71,10 @@ Farben der Seminarphasen.
 *Seite `mod/seminarplaner/methodlibrary.php?…create=1` · 10 Schritte*
 
 Der Einheiten-Editor: Erklärung der Angaben beim Anlegen oder Bearbeiten
-einer Seminareinheit. Schritte u. a.: die drei Abschnitte, Titel
-(einziges Pflichtfeld), Lernziele + geführter Lernziel-Helfer, Einordnen
-(Seminarphase, Tags, Zeitbedarf, Gruppengröße), alternative Einheiten,
-Speichern in die Bibliothek.
+einer Seminareinheit. Schritte u. a.: die Grundangaben, Titel
+(einziges Pflichtfeld), Lernziele + geführter Lernziel-Helfer,
+alternative Einheiten, Einordnen (Zeitbedarf, Seminarphase, Sozialform),
+die beiden Vertiefungs-Abschnitte, Speichern in die Bibliothek.
 
 ### 4. Seminarplaner Bibliothek — `seminarplaner_bibliothek.json`
 *Seite `mod/seminarplaner/methodlibrary.php` · 10 Schritte*
